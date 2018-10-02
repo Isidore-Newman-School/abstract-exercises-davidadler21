@@ -1,9 +1,12 @@
 /*
-
+(I think you mean methods)
 How many concrete classes?
-
+5 concrete classes
 
 How many abstract classes?
+1 abstract class
+
+Abstract classes 
 
 */
 
@@ -36,8 +39,12 @@ public abstract class Ship {
 
 
   public void move() { 
-    // your code here
+    if (x < width) {
+      x++;
+    }
+    else {
+      x = 0;
+    }
   }
-
-  // abstract fire() method
+  public abstract void fire();
 }
