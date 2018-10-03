@@ -43,4 +43,5 @@ void draw() {
   starDestroyer.fire();
   deathStar.move();
   starDestroyer.move();
+  ((DeathStar) deathStar).turn2();
 }
